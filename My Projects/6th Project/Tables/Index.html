@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        .text-center {
+            text-align: center;
+        }
+
+        h1{
+            text-align: center;
+            background-color: blue;
+            color: white;
+        }
+        table,th,
+        td {
+            border: 1px solid black;
+            text-align: center;
+            margin: auto;
+        }
+        table{
+            width: 500px;
+        }
+        th{
+            background-color: aqua;
+        }
+        td{
+            background-color: lightslategray;
+        }
+        .bg-green{
+            background-color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+     <h1>Time Table</h1>
+    <table>
+        <tr>
+            <th>Days</th>
+            <th class="bg-green">9am</th>
+            <th class="bg-green">10am</th>
+            <th class="bg-green">11am</th>
+            <th class="bg-green">12am</th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td colspan="2">Conputer</td>
+            <td>Maths</td>
+            <td>Urdu</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td colspan="2">Pakistan Studie</td>
+            <td>English</td>
+            <td>Maths</td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td colspan="2">Islamiat</td>
+            <td>physics</td>
+            <td>Chemistry</td>
+        </tr>
+        <tr>
+        <th>Thersday</th>
+        <td>Urdu</td>
+        <td>physics</td>
+        <td colspan="2">Chemistry</td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td>Pakistan Studies</td>
+            <td>physics</td>
+            <td colspan="2">Islamiat</td>
+        </tr>
+        <tr>
+            <th>Saterday</th>
+            <td rowspan="2" colspan="4">off</td>
+        </tr>
+        <tr>
+            <th>Sunday</th>
+        </tr>
+    </table>
+</body>
+</html>
